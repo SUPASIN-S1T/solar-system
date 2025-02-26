@@ -1,0 +1,11 @@
+.solar-image {
+  width: 8vw;
+  height: auto;
+  animation: rotate 50s linear infinite;
+}
+
+.solar-image-container {
+  pointer-events: none;
+  position: absolute;
+  z-index: 9;
+}

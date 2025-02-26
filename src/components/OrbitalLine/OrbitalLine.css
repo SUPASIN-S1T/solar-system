@@ -1,0 +1,31 @@
+.orbital-line-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbital-line {
+  border: 2px dashed #3f3f3f;
+  border-radius: 50%;
+  position: absolute; 
+  animation: rotate linear infinite;
+}
+
+.orbital-line-hover {
+  border: 2px dashed #a9a9a9;
+  transition: all 0.5s ease-in-out;
+}
+
+
+/* @media screen and (max-width: 1024px) {
+  .orbital-line-container {
+    height: 28vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .orbital-line-container {
+    height: 12vh;
+  }
+} */
